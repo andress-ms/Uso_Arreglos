@@ -3,7 +3,7 @@ package models;
 public class Grade {
     private String student;
     private String subject;
-    private int grade;
+    private double grade;
 
     //Empty constructor
     public Grade() {
@@ -33,7 +33,7 @@ public class Grade {
         this.subject = subject;
     }
 
-    public int getGrade() {
+    public double getGrade() {
         return grade;
     }
 
